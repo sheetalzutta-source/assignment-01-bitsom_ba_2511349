@@ -34,6 +34,7 @@ LIMIT 3;
 -- =====================================
 -- Q3: List all products purchased by customers from Bangalore
 -- =====================================
+-- Product level data unavailable due to missing linkage
 
 SELECT 
 c.name,
@@ -48,7 +49,7 @@ WHERE c.city = 'Bangalore';
 -- =====================================
 -- Q4: Join all three files to show: customer name, order date, product name, and quantity
 -- =====================================
--- Product details unavailable due to missing relationship
+-- Product name and quantity unavailable due to missing relationship
 
 SELECT 
 c.name,
